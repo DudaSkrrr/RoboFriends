@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
-import './App.css';
 import Header from '../components/Header';
 import { fetchRobots, setSearchField } from '../features/SearchField/SearchFieldSlice';
 
